@@ -3,7 +3,7 @@ import type { Surfboard } from './types';
 export const SURFBOARDS: Surfboard[] = [
   // --- Grovelers & Small Wave / Small-Mushy / Glassy ---
   { id: '1', brand: 'Lost', model: 'Sub Driver 2.0', volume: 30, lengthFt: 5.10, minWaveFt: 1, maxWaveFt: 5, idealConditions: ['small-mushy', 'average', 'glassy'], idealBreaks: ['beach-break', 'point-break'] },
-  { id: '2', brand: 'Firewire', model: 'Dominator 2.0', volume: 38, lengthFt: 6.0, minWaveFt: 1, maxWaveFt: 4, idealConditions: ['small-mushy', 'average', 'glassy'], idealBreaks: ['beach-break', 'point-break'] },
+  { id: '2', brand: 'Firewire', model: 'Dominator 2.0', volume: 38, lengthFt: 6.0, minWaveFt: 1, maxWaveFt: 4, idealConditions: ['small-mushy', 'average', 'glassy'], idealBreaks: ['beach-break', 'point-break'], affiliateUrl: 'https://www.google.com' },
   { id: '3', brand: 'Channel Islands', model: 'CI Fish', volume: 35, lengthFt: 5.6, minWaveFt: 2, maxWaveFt: 5, idealConditions: ['small-mushy', 'glassy'], idealBreaks: ['point-break', 'reef-break'] },
   { id: '4', brand: 'Pyzel', model: 'White Tiger', volume: 33, lengthFt: 5.8, minWaveFt: 1, maxWaveFt: 4, idealConditions: ['small-mushy', 'average'], idealBreaks: ['beach-break'] },
   { id: '5', brand: 'JS Industries', model: 'XERO Gravity', volume: 31, lengthFt: 5.11, minWaveFt: 2, maxWaveFt: 6, idealConditions: ['average', 'glassy'], idealBreaks: ['beach-break', 'point-break'] },
