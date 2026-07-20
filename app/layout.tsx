@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/next";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
@@ -27,12 +28,10 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
-
-// Note: This is a layout file, so nothing is required to change here for the requested upgrades.
-// All the upgrades pertain to UserProfile, recommendBoard, SurfForm, and BoardList,
-// which exist in separate files. No code needs to be inserted in this layout.
-
